@@ -5,3 +5,6 @@ export function fetchBookByKey(key) {
     return data;
   });
 }
+export function fetchAuthorByKey(key) {
+  return axios.get(`https://openlibrary.org/${key}.json`);
+}

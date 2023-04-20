@@ -1,5 +1,6 @@
 import "./App.css";
 import AllBooks from "./components/all-books";
+import Fellowship from "./components/books/fellowship";
 
 function App() {
   return (
